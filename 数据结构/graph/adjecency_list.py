@@ -2,7 +2,8 @@ from typing import List
 
 class AdjecencyList:
     def __init__(self, num_vertices):
-        self.adj_list = [[] * num_vertices]
+        print(num_vertices)
+        self.adj_list = [[] for _ in range (num_vertices)]
     
     def add_edge(self, edge: List[int]):
         node1, node2 = edge
