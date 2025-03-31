@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def minOperations(self, grid: List[List[int]], x: int) -> int:
         all_values = []
