@@ -83,3 +83,18 @@ for item in max_heap:
     print(-item, end=' ')
     
 ```
+
+## heapify function have no return value, it turns the original list into a heap
+
+```python
+
+import heapq
+
+unordered_list = [4,23,5,6,12,3,7,8]
+
+heapq.heapify(unordered_list)
+
+while unordered_list:
+    print(heapq.heappop(unordered_list))
+
+```
