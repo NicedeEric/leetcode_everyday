@@ -14,6 +14,6 @@ def bfs(root: TreeNode):
                 queue.append(cur_node.left)
             if cur_node.right:
                 queue.append(cur_node.right)
-        levels.append(cur_level)
-    
+        levels.append(cur_level) 
+
 ```
