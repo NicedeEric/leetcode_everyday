@@ -1,4 +1,4 @@
-# Min/Max Heap Operations Time Complexity
+# Min/Max Heap Operations Time Complexity. The default heap of heapq is min-heap
 <ol>
 <li>heapq.heappush(heap, item)
 操作：将一个元素 item 插入堆 heap。
