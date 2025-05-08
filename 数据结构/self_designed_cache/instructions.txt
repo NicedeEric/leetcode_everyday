@@ -1,0 +1,2 @@
+1. Install pytest using pip
+2. run command using python -m pytest
