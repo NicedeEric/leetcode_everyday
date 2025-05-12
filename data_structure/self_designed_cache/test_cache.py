@@ -1,6 +1,6 @@
 import time
 import pytest
-from cache import Cache  # 替换成你实际的类名和导入路径
+from cache import Cache
 
 def test_basic_get_set():
     cache = Cache(capacity=2)
